@@ -53,7 +53,7 @@ const ChangePassword = () => {
                     </div>
                 </div>
                 <div className="res-input-content">
-                    <p>New Password</p>
+                    <p>Confirm Password</p>
                     <div class="res-passField">
                         <input
                             type={showPassword3 ? "text" : "password"}

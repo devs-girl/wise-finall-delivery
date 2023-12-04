@@ -10,16 +10,16 @@ import React from "react";
 // import ResetPassword from './Components/Home/ResetPassword';
 // import Features from './Components/Home/Features';
 // import Forgot from './Components/Home/Forgot';
-import Home from "./Components/Home/Home";
-// import Login from "./Components/Home/Login";
+// import Home from "./Components/Home/Home";
+import Login from "./Components/Home/Login";
 // import SignUp from './Components/Home/SignUp';
 
 const App = () => {
     return (
         <div>
-            <Home />
+            {/* <Home /> */}
             {/* <SignUp /> */}
-            {/* <Login /> */}
+            <Login />
             {/* <Forgot /> */}
             {/* <ResetPassword /> */}
             {/* <AccountInfo /> */}

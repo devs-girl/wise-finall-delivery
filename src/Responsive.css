@@ -75,6 +75,12 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+  .forgot-logo {
+    padding-top: 50px;
+  }
+  .forgotImg {
+    margin-top: 50px;
+  }
   .login-dsk {
     display: none;
   }
@@ -456,12 +462,11 @@
     margin-left: 120px;
   }
 }
-
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-}
 /* SM Small Device :320px. */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .forgot-input {
+    top: 0;
+  }
   .slide-container {
     padding: 0 0 !important;
     margin-left: 0 !important;
@@ -778,7 +783,7 @@
   /* -----------------------reset password ---------------------- */
   .forgotImg {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .right-reset {
     background-image: linear-gradient(to bottom, #283677, #582f77);
@@ -844,7 +849,7 @@
   .res-account-info {
     background-color: #00744e;
     color: #fff;
-    height: auto;
+    height: 100vh;
   }
   .chng-btn {
     padding-bottom: 80px;

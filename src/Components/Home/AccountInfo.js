@@ -28,8 +28,10 @@ const AccountInfo = () => {
                     <FaRegCircleUser />
                 </div>
 
-                <span>Welcome</span>
-                <h2>Name Surname</h2>
+                <div>
+                    <span>Welcome</span>
+                    <h2>Name Surname</h2>
+                </div>
                 <div>
                     <button className="btn-active">Upload avatar</button>
                 </div>
