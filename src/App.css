@@ -54,7 +54,6 @@ input:focus {
 
 .wise-wrapper {
   display: flex;
-  /* justify-content: space-between; */
 }
 .sidebar-wrapper {
   width: 135px;
@@ -240,7 +239,6 @@ input:focus {
   height: 100vh;
   position: relative;
   padding-left: 100px;
-  /* padding-right: 220px; */
 }
 
 .signUp-Input {
@@ -292,7 +290,6 @@ input:focus {
   height: 100vh;
   background-position: center bottom;
   background-size: cover;
-  /* padding: 0 40px; */
   background-repeat: no-repeat;
 }
 .sign-dsk h1 {
@@ -308,15 +305,14 @@ input:focus {
 /*-------------------------------- login -------------------------- */
 .login-dsk {
   width: 50%;
-  background-image: url(./images/login-bg.jpg);
+  background-image: url(./images/lg1600.jpg);
   height: 100vh;
   background-position: center bottom;
   background-size: cover;
-  /* padding: 0 40px; */
   background-repeat: no-repeat;
 }
 .login-dsk h1 {
-  font-size: 43px;
+  font-size: 36px;
   color: #283677;
   font-weight: 800;
   padding-top: 65px;
@@ -327,7 +323,7 @@ input:focus {
 .right-login {
   background: #283677;
 }
-/* forgot  */
+/* -------------------------------forgot ---------------------------------- */
 
 .forgot-Input {
   display: flex;
@@ -403,7 +399,6 @@ input:focus {
   color: #283677;
   width: 305px;
   margin: 0;
-  /* padding-top: 100px; */
   line-height: 80px;
   padding-bottom: 30px;
 }
@@ -433,8 +428,6 @@ input:focus {
 /* ..........................
 account info
 ....................... */
-
-/* ................Basic..................... */
 .btn-active {
   background: #00744e;
   color: #fff;
@@ -591,7 +584,10 @@ account info
 }
 
 /* account info form */
-
+.fromTool-head svg {
+  color: white;
+  font-size: 25px;
+}
 .infoContainer {
   max-width: 1200px;
   height: 200px;
@@ -706,10 +702,11 @@ account info
   height: 100vh;
   text-align: center;
   position: relative;
-  padding-top: 200px;
+  padding-top: 140px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .features-bg img {
   width: 15%;
 }
@@ -745,6 +742,7 @@ account info
   position: absolute;
   bottom: 0;
   font-size: 40px;
+  padding-bottom: 50px;
 }
 .cross {
   font-size: 40px;
@@ -937,7 +935,6 @@ account info
   background-color: #42906f;
   outline: none;
   border: none;
-  /* color: white !important; */
   font-size: 34px;
   font-weight: 400;
 }
@@ -988,7 +985,6 @@ account info
 .res-passField input {
   border: none;
   width: 100%;
-  /* height: 100%; */
   outline: none;
   border: none;
   background-color: #439070;
@@ -1041,9 +1037,6 @@ account info
   color: white;
   font-size: 59px;
 }
-/* .blog-text-main {
-  padding-bottom: 400px;
-} */
 .female {
   color: #283677;
 }

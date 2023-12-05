@@ -3,7 +3,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import '../../App.css';
 import '../../Responsive.css';
-import num from "../../images/num.png";
+import num from '../../images/num.png';
 const FormTool = () => {
     return (
         <div>

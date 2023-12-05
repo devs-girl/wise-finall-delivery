@@ -37,9 +37,16 @@
 }
 
 /* LG Device :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1400px) {
+  .login-dsk h1 {
+    font-size: 30px;
+    padding-top: 40px;
+  }
   .login-dsk {
-    display: none;
+    height: auto;
+  }
+  .right {
+    height: auto;
   }
   .sign-mobile {
     display: none;
@@ -464,6 +471,13 @@
 }
 /* SM Small Device :320px. */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .fromTool-head svg {
+    color: white;
+    font-size: 25px;
+  }
+  .two {
+    padding-left: 10px;
+  }
   .forgot-input {
     top: 0;
   }
@@ -659,7 +673,7 @@
     height: auto;
   }
   .signUp-Input input {
-    width: 93%;
+    width: 90%;
   }
 
   .sign-btn {

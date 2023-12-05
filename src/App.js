@@ -1,6 +1,6 @@
 import React from "react";
 // import ChangePassword from "./Components/Home/ChangePassword";
-// import Home from "./Components/Home/Home";
+import Home from "./Components/Home/Home";
 // import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 // import ResAccountInfo from './Components/Home/ResAccountInfo ';
 // import BlogPost from "./Components/Home/BlogPost";
@@ -11,15 +11,15 @@ import React from "react";
 // import Features from './Components/Home/Features';
 // import Forgot from './Components/Home/Forgot';
 // import Home from "./Components/Home/Home";
-import Login from "./Components/Home/Login";
+// import Login from "./Components/Home/Login";
 // import SignUp from './Components/Home/SignUp';
 
 const App = () => {
     return (
         <div>
-            {/* <Home /> */}
+            <Home />
             {/* <SignUp /> */}
-            <Login />
+            {/* <Login /> */}
             {/* <Forgot /> */}
             {/* <ResetPassword /> */}
             {/* <AccountInfo /> */}
